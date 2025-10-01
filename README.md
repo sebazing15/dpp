@@ -5,14 +5,17 @@ Eine datengetriebene Untersuchung des brasilianischen E-Commerce-Datensatzes von
 ## 📊 Projektübersicht
 
 **Problemstellung:** 
-Olist ist ein brasilianischer Online-Marktplatz, auf dem viele unterschiedliche Händler ihre Produkte anbieten. Der Datensatz enthält detaillierte Informationen zu Bestellungen, Umsätzen, Kunden, Bewertungen und Lieferungen. Für datengetriebene Entscheidungen im E-Commerce ist es entscheidend, sowohl die grundlegenden Geschäftszahlen als auch tiefergehende Einflussfaktoren zu verstehen.
+Olist ist ein brasilianischer Online-Marktplatz, auf dem viele verschiedene Händler (Seller) ihre Produkte anbieten. Der Datensatz enthält detaillierte Informationen zu Bestellungen, Umsätzen, Kunden, Bewertungen und Lieferungen. Um die Plattform zu optimieren, ist es entscheidend zu verstehen, wann und wo Seller erfolgreich sind, welche Kategorien den größten Umsatz treiben und welche Faktoren die Kundenzufriedenheit beeinflussen.
+
 **Ziel:** 
 
+Zentrale Muster im Seller-Geschäft identifizieren und daraus Handlungsempfehlungen für die Optimierung des Marktplatzes ableiten.
+
 **Methoden:** 
--Explorative Datenanalyse (EDA) der Transaktionsdaten
+-Explorative Datenanalyse (EDA) der Transaktions- und Seller-Daten
 -Datenbereinigung, um Konsistenz sicherzustellen
 -Deskriptive Analysen und Visualisierungen
--Hypothesengetriebene Untersuchungen zu Zusammenhängen in den Daten
+-Hypothesengetriebene Untersuchungen zu Umsatztreibern, Lieferprozessen und Bewertungen
 
 ## 🎯 Key Findings
 
