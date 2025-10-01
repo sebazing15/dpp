@@ -1,31 +1,18 @@
-# 📋 Template-Anleitung
+# Analyse der Geschäftsdaten von Olist – Einem brasilianischen Online-Marktplatz 
 
-> **Für Kursteilnehmer*innen:** Diese Sektion nach dem Setup deines Projekts löschen!
-
-## So verwenden Sie dieses Template:
-Dieses Template hilft dir, dein Data Science Projekt effizient zu organisieren und zu dokumentieren. Es bietet eine gängige Struktur, um deine Arbeit zu planen, durchzuführen und zu präsentieren. Templates können in GitHub über den Button **"Use this template"** in der oberen rechten Ecke in ein eigenes Repository überführt werden. Nutze diese Vorlage als Inspiration und passe sie an dein Projekt an! 
-
-Neben einer grundlegenden Ordnerstruktur für deine Dateien und Notebooks, enthält dieses Template unter `.github\ISSUE_TEMPLATE` einige Vorlagen für GitHub Issues, die dir helfen, deine Aufgaben zu organisieren und den Fortschritt deines Projekts zu verfolgen.
-
-Lies dir die Datei `PROJECT_SETUP.md` durch, um mehr über die Nutzung dieses Templates zu erfahren.
-
-Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei anpassen, um dein Projekt zu beschreiben und zu präsentieren. Lösche anschließend diese Anleitung.
-
-
-# [DEIN PROJEKTTITEL HIER] 🚀
-
-> Eine kurze, prägnante Beschreibung deines Data Science Projekts in 1-2 Sätzen.
+Eine datengetriebene Untersuchung des brasilianischen E-Commerce-Datensatzes von Olist. Ziel ist es, aus den vorhandenen Daten relevante Handlungsempfehlungen abzuleiten, die zur Optimierung des Geschäfts beitragen können.
 
 ## 📊 Projektübersicht
 
 **Problemstellung:** 
-<!-- Beschreibe das Problem, das du lösen möchtest -->
-
+Olist ist ein brasilianischer Online-Marktplatz, auf dem viele unterschiedliche Händler ihre Produkte anbieten. Der Datensatz enthält detaillierte Informationen zu Bestellungen, Umsätzen, Kunden, Bewertungen und Lieferungen. Für datengetriebene Entscheidungen im E-Commerce ist es entscheidend, sowohl die grundlegenden Geschäftszahlen als auch tiefergehende Einflussfaktoren zu verstehen.
 **Ziel:** 
-<!-- Was ist das Hauptziel deines Projekts? -->
 
 **Methoden:** 
-<!-- Welche Techniken/Algorithmen verwendest du? -->
+-Explorative Datenanalyse (EDA) der Transaktionsdaten
+-Datenbereinigung, um Konsistenz sicherzustellen
+-Deskriptive Analysen und Visualisierungen
+-Hypothesengetriebene Untersuchungen zu Zusammenhängen in den Daten
 
 ## 🎯 Key Findings
 
