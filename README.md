@@ -41,35 +41,58 @@ Zentrale Muster im Geschäftsbetrieb von Olist identifizieren und daraus Handlun
 ## 🔧 Verwendete Technologien
 
 **Programmiersprachen:**
-<!-- z.B. Python, R, SQL -->
+
+Python
 
 **Libraries & Frameworks:**
-<!-- z.B. pandas, scikit-learn, matplotlib, etc. -->
+pandas, numpy, matplotlib, seaborn, scikit-learn (für logistische Regression), pathlib (Dateiverwaltung)
 
 **Tools:**
-<!-- z.B. Jupyter, Git, Docker, etc. -->
+VS Code, Jupyter Notebooks, Git & GitHub, uv (Python-Paketmanager)
 
 ## 📊 Daten
 
 **Datenquelle:** 
-<!-- Woher kommen deine Daten? -->
+Olist Brazilian E-Commerce Dataset
+— Datensammlung eines brasilianischen Online-Marktplatzes (Olist).
 
 **Datensatz-Größe:** 
-<!-- Anzahl Zeilen/Spalten, Dateigröße -->
+8 verknüpfte CSV-Dateien
+ca. 100 000 Bestellungen
+über 3 000 Seller
+über 32 000 Produkte
+rund 500 MB Rohdaten
 
 **Wichtige Features:** 
-<!-- Beschreibung der wichtigsten Variablen -->
+order_purchase_timestamp – Zeitpunkt der Bestellung
+customer_id / customer_unique_id – eindeutige Kundenzuordnung
+seller_id – Verkäufer-ID
+product_category_name_english – Produktkategorie
+price, freight_value – Preis und Versandkosten
+review_score – Kundenbewertung
+geolocation_lat, geolocation_lng – Kunden- und Seller-Koordinaten
 
 ## 🤖 Methodik
 
 ### Data Preprocessing
-<!-- Kurze Beschreibung deiner Datenbereinigung -->
+Zusammenführung aller Olist-Tabellen zu einem zentralen Faktendatensatz
+Entfernen unvollständiger oder fehlerhafter Zeilen
+
+Berechnung neuer Features:
+Lieferzeit (Tage)
+Distanz zwischen Seller und Kunde
+Umsatz pro Order
+Speicherung der bereinigten Daten als Parquet unter /data/processed/
 
 ### Modeling Approach  
-<!-- Welche Modelle hast du getestet? -->
+Explorative Datenanalyse (EDA) für Umsatz-, Liefer- und Kundentrends
+Logistische Regression zur Analyse von Lieferverzögerungen
+Kohortenanalyse zur Messung von Kundenbindung und Wiederkäufen
+Pareto-Analysen zur Identifikation der umsatzstärksten Kategorien
 
 ### Evaluation
-<!-- Wie hast du die Ergebnisse bewertet? -->
+Statistische Auswertung von Lieferzeiten, SLA-Verletzungen und Kundenzahlen
+KPI-basierte Bewertung (z. B. Retention-Rate, Umsatzverteilung, Anteil verspäteter Lieferungen)
 
 ## 📈 Ergebnisse
 
